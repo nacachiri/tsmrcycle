@@ -1,0 +1,44 @@
+form {
+	padding: 20px;
+	width: 30%;
+	border:1px solid #fff;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+textarea {
+	resize: vertical;
+	max-height: 300px;
+	min-height: 100px;
+}
+
+input, textarea {
+	margin-bottom: 20px;
+	width: 90%;
+	border:1px solid #fff;
+	padding: 10px;
+}
+
+input[type="submit"] {
+	margin-top: 0;
+	background: #616161;
+	color: #fff;
+	border: none;
+}
+
+input[type="submit"]:hover {
+	background: #000;
+	cursor: pointer;
+}
+
+h1#titulo {
+	background-color: #C8AD32;
+	color: #fff;
+	font-size: 50px;
+	width: 100%;
+}
+
+img#logo {
+	padding: 25px;
+	float: right;
+}
