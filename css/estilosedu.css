@@ -64,6 +64,8 @@ h1#titulo1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .hover-galeria img{
