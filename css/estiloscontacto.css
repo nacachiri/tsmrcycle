@@ -1,9 +1,22 @@
+section#general {
+	position: relative;
+	margin: auto;
+	width: 95%;
+	background-color: #DADADA;
+	margin-top: 3%;
+	background-image: url(../imagenes/imgcontact.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
 form {
 	padding: 20px;
 	width: 30%;
-	border:1px solid #fff;
-	font-size: 20px;
+	border: 2px solid #fff;
+	font-size: 25px;
 	text-decoration: underline;
+	background-color: rgba(255,255,255,0.6);
+	font-weight: bold;
 }
 
 textarea {
@@ -15,19 +28,19 @@ textarea {
 input, textarea {
 	margin-bottom: 20px;
 	width: 90%;
-	border:1px solid #fff;
+	border: 2px solid #fff;
 	padding: 10px;
 }
 
 input[type="submit"] {
 	margin-top: 0;
-	background: #616161;
+	background-color: #FF4141;
 	color: #fff;
 	border: none;
 }
 
 input[type="submit"]:hover {
-	background: #000;
+	background-color: #C52833;
 	cursor: pointer;
 }
 

@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
-
 body {
 	margin: 0;
-	font-family: 'Roboto Mono', monospace;
+	font-family: monospace;
 	background-color: #FF4141;
 }
 
@@ -81,7 +79,7 @@ section#general {
 	position: relative;
 	margin: auto;
 	width: 95%;
-	background: #DADADA;
+	background-color: #DADADA;
 	margin-top: 3%;
 }
 
