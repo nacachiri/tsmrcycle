@@ -9,6 +9,7 @@ section#general {
 img#fondo {
 	margin-top: 0px; 
 	width: 100%;
+    height: 600px;
 	opacity: 0.5;
 }
 
@@ -21,12 +22,18 @@ h1#titulo1 {
 	margin-bottom: 0px;
 }
 
+img#logoedu {
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+
 /* Galeria */
 
 
 .portafolio{
     position: absolute;
-    top: 40%;
+    top: 20%;
 }
 
 .galeria-port{
@@ -65,7 +72,7 @@ h1#titulo1 {
     align-items: center;
     flex-direction: column;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 .hover-galeria img{
